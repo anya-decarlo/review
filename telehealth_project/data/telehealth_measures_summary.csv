@@ -1,0 +1,15 @@
+description,category,value,filename
+Whether patients preferred telehealth visits,Binary,One-third preferred telehealth visits,11606_2015_Article_3489.pdf
+Whether patients liked telehealth visits,Binary,57% liked telehealth visits,11606_2015_Article_3489.pdf
+Percentage of patients very satisfied with telehealth attributes,Percentage,Between 94% and 99%,11606_2015_Article_3489.pdf
+Number of patients completing the satisfaction survey,Count,1734 out of 3303 patients,11606_2015_Article_3489.pdf
+Percentage of visits conducted via telehealth,Percentage,92.7% of patients at high risk became regular telehealth users from March 2020 to March 2021,schuttner_2024_oi_240782_1721767288.98693.pdf
+Percentage of visits conducted via telehealth,Percentage,83.4% of patients at high risk continued as telehealth users in the following year (2021),schuttner_2024_oi_240782_1721767288.98693.pdf
+Percentage of visits conducted via telehealth,Percentage,38.2% retention of users at high risk newly engaged in telehealth in 2020,schuttner_2024_oi_240782_1721767288.98693.pdf
+Number of telehealth visits,Count,1 158 804 of 1 250 438 patients at high risk retained in care became regular telehealth users from March 2020 to March 2021,schuttner_2024_oi_240782_1721767288.98693.pdf
+Number of telehealth visits,Count,942 151 of 1 129 683 patients at high risk retained in care continued as telehealth users in the following year (2021),schuttner_2024_oi_240782_1721767288.98693.pdf
+Number of telehealth visits,Count,Three clinical telehealth evaluations of dysarthria,AJSLP-30-503.pdf
+Number of telehealth visits,Count,"3,609,105",1-s2.0-S1553725024003829-main.pdf
+"Reporting rate of adverse events per 100,000 episodes of care",Rate,4.02,1-s2.0-S1553725024003829-main.pdf
+"Rate of harm reports per 100,000 episodes of care",Rate,0.42,1-s2.0-S1553725024003829-main.pdf
+Percentage of telehealth episodes resulting in harm to the patient,Percentage,0.42%,1-s2.0-S1553725024003829-main.pdf

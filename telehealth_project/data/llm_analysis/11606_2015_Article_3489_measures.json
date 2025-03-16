@@ -1,0 +1,25 @@
+{
+  "measures": [
+    {
+      "description": "Whether patients preferred telehealth visits",
+      "category": "Binary",
+      "value": "One-third preferred telehealth visits"
+    },
+    {
+      "description": "Whether patients liked telehealth visits",
+      "category": "Binary",
+      "value": "57% liked telehealth visits"
+    },
+    {
+      "description": "Percentage of patients very satisfied with telehealth attributes",
+      "category": "Percentage",
+      "value": "Between 94% and 99%"
+    },
+    {
+      "description": "Number of patients completing the satisfaction survey",
+      "category": "Count",
+      "value": "1734 out of 3303 patients"
+    }
+  ],
+  "filename": "11606_2015_Article_3489.pdf"
+}

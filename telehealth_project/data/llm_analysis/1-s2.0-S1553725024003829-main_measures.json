@@ -1,0 +1,25 @@
+{
+  "measures": [
+    {
+      "description": "Number of telehealth visits",
+      "category": "Count",
+      "value": "3,609,105"
+    },
+    {
+      "description": "Reporting rate of adverse events per 100,000 episodes of care",
+      "category": "Rate",
+      "value": "4.02"
+    },
+    {
+      "description": "Rate of harm reports per 100,000 episodes of care",
+      "category": "Rate",
+      "value": "0.42"
+    },
+    {
+      "description": "Percentage of telehealth episodes resulting in harm to the patient",
+      "category": "Percentage",
+      "value": "0.42%"
+    }
+  ],
+  "filename": "1-s2.0-S1553725024003829-main.pdf"
+}

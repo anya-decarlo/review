@@ -1,0 +1,129 @@
+2025-03-16 16:02:32,046 - INFO - Found 5 PDF files to analyze
+2025-03-16 16:02:32,046 - INFO - Processing /Users/anyadecarlo/review/telehealth_project/articles/AJSLP-30-503.pdf...
+2025-03-16 16:02:32,180 - INFO - Title: Obtaining Objective Clinical Measures
+2025-03-16 16:02:32,180 - INFO - Authors: None
+2025-03-16 16:02:32,180 - INFO - Study design: Randomized Controlled Trial
+2025-03-16 16:02:32,180 - INFO - Data source: None
+2025-03-16 16:02:32,180 - INFO - Sample size: None
+2025-03-16 16:06:56,310 - DEBUG - Debug mode enabled
+2025-03-16 16:06:56,310 - INFO - Processing file: /Users/anyadecarlo/review/telehealth_project/articles/AJSLP-30-503.pdf
+2025-03-16 16:06:56,310 - INFO - Extracting text from /Users/anyadecarlo/review/telehealth_project/articles/AJSLP-30-503.pdf
+2025-03-16 16:06:56,439 - INFO - Extracted 66378 characters from /Users/anyadecarlo/review/telehealth_project/articles/AJSLP-30-503.pdf
+2025-03-16 16:06:56,439 - INFO - Analyzing text with gpt-3.5-turbo
+2025-03-16 16:06:56,439 - INFO - Analyzing text chunk of length 4000 with model gpt-3.5-turbo
+2025-03-16 16:06:57,873 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 16:06:57,879 - INFO - API response: {
+    "measures": [
+        {
+            "description": "Number of telehealth visits",
+            "category": "Count",
+            "value": "Three clinical telehealth evaluations of dysarthria"
+        }
+    ]
+}
+2025-03-16 16:06:57,888 - INFO - Analysis complete. Found 1 telehealth measures.
+2025-03-16 16:06:57,888 - INFO - Results saved to /Users/anyadecarlo/review/telehealth_project/data/llm_analysis/AJSLP-30-503_measures.json and /Users/anyadecarlo/review/telehealth_project/data/llm_analysis/AJSLP-30-503_measures.csv
+2025-03-16 16:08:09,662 - DEBUG - Debug mode enabled
+2025-03-16 16:08:09,663 - INFO - Processing file: /Users/anyadecarlo/review/telehealth_project/articles/11606_2015_Article_3489.pdf
+2025-03-16 16:08:09,663 - INFO - Extracting text from /Users/anyadecarlo/review/telehealth_project/articles/11606_2015_Article_3489.pdf
+2025-03-16 16:08:09,757 - INFO - Extracted 38565 characters from /Users/anyadecarlo/review/telehealth_project/articles/11606_2015_Article_3489.pdf
+2025-03-16 16:08:09,757 - INFO - Analyzing text with gpt-3.5-turbo
+2025-03-16 16:08:09,757 - INFO - Analyzing text chunk of length 4000 with model gpt-3.5-turbo
+2025-03-16 16:08:11,501 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 16:08:11,508 - INFO - API response: {
+    "measures": [
+        {
+            "description": "Whether patients preferred telehealth visits",
+            "category": "Binary",
+            "value": "One-third preferred telehealth visits"
+        },
+        {
+            "description": "Whether patients liked telehealth visits",
+            "category": "Binary",
+            "value": "57% liked telehealth visits"
+        },
+        {
+            "description": "Percentage of patients very satisfied with telehealth attributes",
+            "category": "Percentage",
+            "value": "Between 94% and 99%"
+        },
+        {
+            "description": "Number of patients completing the satisfaction survey",
+            "category": "Count",
+            "value": "1734 out of 3303 patients"
+        }
+    ]
+}
+2025-03-16 16:08:11,515 - INFO - Analysis complete. Found 4 telehealth measures.
+2025-03-16 16:08:11,515 - INFO - Results saved to /Users/anyadecarlo/review/telehealth_project/data/llm_analysis/11606_2015_Article_3489_measures.json and /Users/anyadecarlo/review/telehealth_project/data/llm_analysis/11606_2015_Article_3489_measures.csv
+2025-03-16 16:08:51,374 - DEBUG - Debug mode enabled
+2025-03-16 16:08:51,374 - INFO - Processing file: /Users/anyadecarlo/review/telehealth_project/articles/schuttner_2024_oi_240782_1721767288.98693.pdf
+2025-03-16 16:08:51,374 - INFO - Extracting text from /Users/anyadecarlo/review/telehealth_project/articles/schuttner_2024_oi_240782_1721767288.98693.pdf
+2025-03-16 16:08:51,453 - INFO - Extracted 39625 characters from /Users/anyadecarlo/review/telehealth_project/articles/schuttner_2024_oi_240782_1721767288.98693.pdf
+2025-03-16 16:08:51,453 - INFO - Analyzing text with gpt-3.5-turbo
+2025-03-16 16:08:51,453 - INFO - Analyzing text chunk of length 4000 with model gpt-3.5-turbo
+2025-03-16 16:08:53,896 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 16:08:53,904 - INFO - API response: {
+    "measures": [
+        {
+            "description": "Percentage of visits conducted via telehealth",
+            "category": "Percentage",
+            "value": "92.7% of patients at high risk became regular telehealth users from March 2020 to March 2021"
+        },
+        {
+            "description": "Percentage of visits conducted via telehealth",
+            "category": "Percentage",
+            "value": "83.4% of patients at high risk continued as telehealth users in the following year (2021)"
+        },
+        {
+            "description": "Percentage of visits conducted via telehealth",
+            "category": "Percentage",
+            "value": "38.2% retention of users at high risk newly engaged in telehealth in 2020"
+        },
+        {
+            "description": "Number of telehealth visits",
+            "category": "Count",
+            "value": "1 158 804 of 1 250 438 patients at high risk retained in care became regular telehealth users from March 2020 to March 2021"
+        },
+        {
+            "description": "Number of telehealth visits",
+            "category": "Count",
+            "value": "942 151 of 1 129 683 patients at high risk retained in care continued as telehealth users in the following year (2021)"
+        }
+    ]
+}
+2025-03-16 16:08:53,911 - INFO - Analysis complete. Found 5 telehealth measures.
+2025-03-16 16:08:53,911 - INFO - Results saved to /Users/anyadecarlo/review/telehealth_project/data/llm_analysis/schuttner_2024_oi_240782_1721767288.98693_measures.json and /Users/anyadecarlo/review/telehealth_project/data/llm_analysis/schuttner_2024_oi_240782_1721767288.98693_measures.csv
+2025-03-16 16:13:32,450 - DEBUG - Debug mode enabled
+2025-03-16 16:13:32,450 - INFO - Processing file: /Users/anyadecarlo/review/telehealth_project/articles/1-s2.0-S1553725024003829-main.pdf
+2025-03-16 16:13:32,450 - INFO - Extracting text from /Users/anyadecarlo/review/telehealth_project/articles/1-s2.0-S1553725024003829-main.pdf
+2025-03-16 16:13:33,015 - INFO - Extracted 31840 characters from /Users/anyadecarlo/review/telehealth_project/articles/1-s2.0-S1553725024003829-main.pdf
+2025-03-16 16:13:33,015 - INFO - Analyzing text with gpt-3.5-turbo
+2025-03-16 16:13:33,015 - INFO - Analyzing text chunk of length 4000 with model gpt-3.5-turbo
+2025-03-16 16:13:35,698 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 16:13:35,702 - INFO - API response: {
+    "measures": [
+        {
+            "description": "Number of telehealth visits",
+            "category": "Count",
+            "value": "3,609,105"
+        },
+        {
+            "description": "Reporting rate of adverse events per 100,000 episodes of care",
+            "category": "Rate",
+            "value": "4.02"
+        },
+        {
+            "description": "Rate of harm reports per 100,000 episodes of care",
+            "category": "Rate",
+            "value": "0.42"
+        },
+        {
+            "description": "Percentage of telehealth episodes resulting in harm to the patient",
+            "category": "Percentage",
+            "value": "0.42%"
+        }
+    ]
+}
+2025-03-16 16:13:35,709 - INFO - Analysis complete. Found 4 telehealth measures.
+2025-03-16 16:13:35,709 - INFO - Results saved to /Users/anyadecarlo/review/telehealth_project/data/llm_analysis/1-s2.0-S1553725024003829-main_measures.json and /Users/anyadecarlo/review/telehealth_project/data/llm_analysis/1-s2.0-S1553725024003829-main_measures.csv

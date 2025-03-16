@@ -1,0 +1,10 @@
+{
+  "measures": [
+    {
+      "description": "Number of telehealth visits",
+      "category": "Count",
+      "value": "Three clinical telehealth evaluations of dysarthria"
+    }
+  ],
+  "filename": "AJSLP-30-503.pdf"
+}

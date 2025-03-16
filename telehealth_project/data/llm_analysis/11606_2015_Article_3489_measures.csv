@@ -1,0 +1,5 @@
+description,category,value,filename
+Whether patients preferred telehealth visits,Binary,One-third preferred telehealth visits,11606_2015_Article_3489.pdf
+Whether patients liked telehealth visits,Binary,57% liked telehealth visits,11606_2015_Article_3489.pdf
+Percentage of patients very satisfied with telehealth attributes,Percentage,Between 94% and 99%,11606_2015_Article_3489.pdf
+Number of patients completing the satisfaction survey,Count,1734 out of 3303 patients,11606_2015_Article_3489.pdf
